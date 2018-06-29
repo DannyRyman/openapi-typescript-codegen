@@ -1,0 +1,24 @@
+{
+  "name": "swagger-d-ts-generator",
+  "version": "3.0.0",
+  "description": "Generates typescript from an openapi specification.",
+  "main": "code-gen.js",
+  "scripts": {
+    "test": "node_modules/.bin/ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danny-ryman/openapi-typescript-codegen"
+  },
+  "author": "Dan Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^2.1.0",
+    "handlebars": "^4.0.5",
+    "js-yaml": "^3.6.1",
+    "traverse": "^0.6.6"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0"
+  }
+}
