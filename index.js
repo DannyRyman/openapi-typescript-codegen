@@ -1,5 +1,5 @@
 'use strict'
 
-const codegen = require('./lib/exporter.js')
+const run = require('./lib/run.js')
 
-module.exports = codegen
+module.exports = run

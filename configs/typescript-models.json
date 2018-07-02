@@ -1,0 +1,10 @@
+{
+  "language": "typescript",
+  "partials": {},
+  "transformations": [
+    {
+      "input": "models.mustache",
+      "output": "contract-model.ts"
+    }
+  ]
+}

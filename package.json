@@ -4,7 +4,7 @@
   "description": "Generates typescript from an openapi specification.",
   "main": "code-gen.js",
   "scripts": {
-    "test": "node_modules/.bin/ava --verbose"
+    "test": "node_modules/.bin/jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,11 @@
   "dependencies": {
     "args": "^2.1.0",
     "handlebars": "^4.0.5",
+    "jest": "^23.2.0",
     "js-yaml": "^3.6.1",
     "traverse": "^0.6.6"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "fs-extra": "^6.0.1"
   }
 }
