@@ -1,4 +1,3 @@
-
 export type EnumProp =
   'loan'
   | 'bond'
@@ -39,8 +38,6 @@ export interface SampleDefinition {
   referencedEnumProp?: SharedEnum
   arrayOfEnumProp?: ArrayOfEnumProp[]
 }
-
 export interface SampleDefinition2 {
   prop1?: string
 }
-

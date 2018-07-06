@@ -1,2 +1,2 @@
 mkdir -p ./out
-node index.js --path ./sample-schemas/petstore-full.yaml --out ./out/typedefs.ts
+node index.js --template typescript-models --path ./sample-schemas/petstore-full.yaml
