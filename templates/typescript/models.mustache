@@ -9,12 +9,13 @@ export const {{valueName}}: {{typeName}}[] = [
   '{{{this}}}'{{#unless @last}},{{/unless}}
 {{/enums}}
 ]
-{{/enums}}{{#if enums.length}}
-{{/if}}
+
+{{/enums}}
 {{#models}}
 export interface {{modelname}} {
   {{#properties}}
   {{propname}}{{#unless required}}?{{/unless}}: {{type}}
   {{/properties}}
 }
+
 {{/models}}
